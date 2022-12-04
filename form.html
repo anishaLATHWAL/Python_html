@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="for.js">
+        
+       <div>
+        <label for="name">Name:</label>
+         <input type="text"> </div>  <br>
+       <div>Password: <input type="password" name="password"> </div> 
+       <div>Email: <input type="Email"> </div> 
+       <div> Date- Time <input type="datetime-local"> </div>  
+        <!--Div is a block element. use div instead of br. it will create issue-->
+        <div> <input type="submit" value="submit"> </div>  <br>
+        <div> <input type="reset" value="reset"> </div> <br> 
+        <div> Are you Married:<input type="checkbox"></div><br>
+        <!--name attribute is for so that backend can know on which input field-->
+        Gender: Male<input type="radio" name="Gender">
+         Female<input type="radio" name="Gender">
+        Other<input type="radio" name="Gender"><br><br>
+        <div>Number:<input type="number"></div>
+        <!-- Radio button m name jruri hota h to select one item at a time-->
+        <div> Write here</div>
+        <div> <textarea name="area" rows="10" cols="30"></textarea></div><br><br><br>
+         From Where you belong:<br><select name="dropdown">
+            <option value="Sonipat" >Sonipat </option>
+            <option value="Panipat" selected>Panipat</option>
+            <option value="Rohtak">Rohtak</option>
+            <option value="Karnal">Karnal</option>
+            <option value="Kurukshetra">Kurukshetra</option>
+            <option value="Ambala">Ambala</option>
+          </select><br>
+          <!--Search more about form...Explore it-->
+    </form>
+</body>
+</html>
